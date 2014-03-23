@@ -1,12 +1,12 @@
 " Vim global plugin for loading directory-specific configuration files
-" Last Change:  2010 Nov 13
+" Last Change:  2014 Mar 23
 " Maintainer:   Tom Payne <vim@tompayne.org>
 " License:      This file is placed in the public domain.
 
-if exists("loaded_brnchcfg")
+if exists("loaded_branchconfig")
 	finish
 endif
-let loaded_brnchcfg = 1
+let loaded_branchconfig = 1
 
 let s:dir = getcwd()
 while stridx(s:dir, $HOME) != -1
